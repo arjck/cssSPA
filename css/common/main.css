@@ -1,0 +1,113 @@
+/*
+	Primary: #C27E0A
+
+	Tints (lighter variations for backgrounds, highlights, accents):
+		Name 	Hex Code 	Description
+		Gold Tint 1 	#D3A64D 	Light, warm gold, suitable for backgrounds or highlights
+		Gold Tint 2 	#E6C080 	Very light, subtle gold for subtle accents or overlays
+		Gold Tint 3 	#F4D699 	Almost pastel gold, for soft UI elements or overlays
+
+	Shades (darker variations for borders, text, or emphasis):
+		Name 			Hex Code 	Description
+		Gold Shade 1 	#A76A07 	Darker, richer tone for text or emphasis
+
+		Gold Shade 2 	#8C5E06 	Deeper, more muted tone 
+		for borders or shadows
+		
+		Gold Shade 3 	#6B4604 	Deepest shade, for accents or strong emphasis
+
+	Supplementary Colors (complementary, neutral, and accent):
+		Name 			Hex Code 	Description
+		Deep Charcoal 	#2F2F2F 	Elegant, neutral dark gray for text or backgrounds
+
+		Warm Gray 		#8A8A8A 	Softer neutral for secondary elements
+		
+		Classic Black 	#000000 	For text or key accents
+		
+		Pure White 		#FFFFFF 	For backgrounds, overlays, or clean contrast
+		
+		Burgundy Red 	#8B0000 	Rich accent for luxury or emphasis (optional)
+
+		Deep Navy 		#001F3F 	Sophisticated accent color that pairs well with gold
+
+	Usage Tips:
+	    Use gold shades and tints for highlights, buttons, or accents.
+	    Use dark shades for text, borders, or emphasis.
+	    Keep neutrals for backgrounds, secondary text, or UI elements.
+
+	Optional: Use burgundy or navy as accent colors for special highlights or branding elements.
+
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%; /* == 16px but adjustable for the user */
+}
+
+body {
+	font-family: "Rubik";
+	font-weight: 400;
+	color: #8A8A8A;
+	line-height: 1;
+}
+
+.section-header {
+	background-color: #F4D699;
+	padding: 9.6rem;
+}
+
+.header-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	/*align-items: center;*/
+	gap: 9.6rem;
+
+	max-width: 130rem;
+	margin: 0 auto;
+}
+
+.header-image {
+	width: 100%;
+	height: 100%;
+	object-fit: none;
+}
+
+.header-title {
+	font-size: 5.2rem;
+	font-weight: 700;
+	line-height: 1.05;
+	letter-spacing: -0.5px;
+	color: #2F2F2F;
+	margin-bottom: 3.2rem;
+}
+
+.header-description {
+	font-size: 2rem;
+	line-height: 1.6;
+	margin-bottom: 4.8rem;
+	color: #555;
+}
+
+.margin-right-sm {
+	margin-right: 1.6rem;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #181818;
+	padding: 1rem;
+	height: 8rem;
+}
+
+.logo {
+	height: 100%;
+    min-width: 1%;
+    object-fit: contain;
+}

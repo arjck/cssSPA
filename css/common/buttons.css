@@ -1,0 +1,36 @@
+.btn:link, 
+.btn:visited {
+	display: inline-block;
+	text-decoration: none;
+
+	font-size: 2rem;
+	font-weight: 600;
+	padding: 1.6rem 3.2rem;
+	border-radius: 9px;
+
+	transition: background-color 0.3s;
+}
+
+.btn-main:link, 
+.btn-main:visited {
+	background-color: #AF7109;
+	color: #fff;
+}
+
+.btn-main:hover, 
+.btn-main:active {
+	background-color: #C27E0A;
+}
+
+.btn-additional:link, 
+.btn-additional:visited {
+	background-color: #F9F2E7;
+	color: #555;
+}
+
+.btn-additional:hover, 
+.btn-additional:active {
+	background-color: #F3E5CE;
+
+	box-shadow: inset 0 0 3px #F9F2E7;
+}
