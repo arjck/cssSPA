@@ -1,0 +1,81 @@
+.section-gears {
+  padding: 9.6rem 0;
+}
+
+.gear {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.gear:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.gear-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.gear-tags {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #333;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
+.tag--retro {
+  background-color: #51cf66;
+}
+.tag--limited {
+  background-color: #94d82d;
+}
+.tag--hybrid {
+  background-color: #ffd43b;
+}
+
+.gear-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.gear-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.gear-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.gear-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #AF7109;
+}
+
+.gear-img {
+  width: 100%;
+}
+
+.all-recipes {
+  text-align: center;
+  font-size: 1.8rem;
+}
