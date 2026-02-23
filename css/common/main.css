@@ -72,10 +72,13 @@ header.navigation-container {
 
 .logo {
 	height: 100%;
-    min-width: 1%;
-    object-fit: contain;
+	min-width: 1%;
+	object-fit: contain;
 }
 
+.footer-logo > .logo {
+	border-radius: 1.6rem;
+}
 
 .container {
   /* 1140px */
