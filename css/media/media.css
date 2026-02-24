@@ -1,0 +1,321 @@
+/* <= 1344px */
+
+@media (min-width: 75.01em) and (max-width: 84em) {
+	.header-container {
+	    max-width: 120rem;
+	}
+
+	.header-title {
+	    font-size: 4.4rem;
+	}
+
+	.gallery {
+	    grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+/* <= 1200px */
+@media (min-width: 58.76em) and (max-width: 75em) {
+	html {
+		font-size: 56.25%; /* == 9px */
+	}
+
+	.grid {
+		column-gap: 4.8rem;
+		row-gap: 4.8rem;
+	}
+
+	.header {
+		padding: 0 3.2rem;
+	}
+
+	.heading-secondary {
+		font-size: 3.6rem;
+	}
+
+	.heading-secondary {
+		font-size: 2.4rem;
+	}
+
+	.header-container {
+	    gap: 4.8rem;
+	}
+
+	.testimonials-container {
+		padding: 4.8rem;
+	}
+}
+
+/* <= 940px */
+@media (min-width: 43.76em) and (max-width: 58.75em) {
+	html {
+		font-size: 50%; /* == 8px */
+	}
+
+	.header-container {
+	  	grid-template-columns: 1fr;
+	  	padding: 0 8rem;
+	  	gap: 6.4rem;
+	}
+
+	.header-text-block,
+	.header-image-container {
+		text-align: center;
+	}
+
+	.step-number {
+		font-size: 7.4rem;
+	}
+
+	.gear-content {
+		padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+	}
+
+	.section-testimonials {
+		grid-template-columns: 1fr;
+	}
+
+	.pricing-plan--starter,
+	.pricing-plan--complete {
+		padding: 3rem;
+	}
+
+	.sign {
+		grid-template-columns: 3fr 2fr;
+	}
+
+	.sign-form {
+		grid-template-columns: 1fr;
+	}
+
+	.btn-form {
+		margin-top: 1.2rem;
+	}
+}
+
+/* <= 700px */
+@media (min-width: 34.01em) and (max-width: 43.75em) {
+	/* Replace 3&4 -> 2 columns */
+	.grid--3-cols,
+	.grid--4-cols {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.grid {
+		column-gap: 0rem;
+	}
+
+	.preferences {
+		grid-column: 1 / -1;
+		display: flex;
+        flex-direction: column;
+        align-items: center;
+	}
+
+	.header-container {
+		grid-template-columns: 1fr;
+	}
+
+	.section-testimonials {
+	    grid-template-columns: 1fr;
+	}
+
+	.heading-secondary {
+		margin-bottom: 4.8rem;
+	}
+
+	.pricing-plan {
+		width: 100%;
+	}
+
+	.sign-form {
+		grid-template-columns: 1fr;
+	}
+
+	.grid--footer {
+		grid-template-columns: repeat(6, 1fr);
+	}
+
+	.grid--footer nav {
+		grid-row: 1;
+		grid-column: span 2;
+	}
+
+	.logo-col,
+	.address-col {
+		grid-column: span 3;
+	}
+
+	.address-col {
+		padding-left: 3.2rem;
+	}
+}
+
+/* <= 544px */
+@media (max-width: 34em) {
+	html {
+		font-size: 50%; /* == 8px */
+	}
+
+	.header-title {
+	    font-size: 3.2rem;
+	}
+
+	.header-text-block {
+		min-width: 0rem; 
+	}
+
+	.section-header {
+	    padding: 3rem;
+	}
+
+	.grid {
+    	row-gap: 4.8rem;
+  	}
+
+	.grid--2-cols,
+	.grid--3-cols,
+	.grid--4-cols {
+		grid-template-columns: 1fr;
+		justify-items: center;
+	}
+
+	.header-text-block > .btn:not(:last-child) {
+		margin-bottom: 1rem;
+	}
+
+	.header-text-block > .btn {
+		width: 100%;
+	}
+
+	.header-image {
+	    object-fit: contain;
+	}
+
+	.header-container {
+		grid-template-columns: 1fr;
+		text-align: center;
+	}
+
+	.heading-secondary {
+		text-align: center;
+		font-size: 3.2rem;
+		margin-bottom: 6rem;
+	}
+
+	.section-how .heading-secondary {
+		margin-bottom: 8rem;
+	}
+
+	.section-how .grid {
+		row-gap: 7.8rem;
+	}
+
+	.heading-tertiary {
+		font-size: 2.3rem;
+	}
+
+	.destinations {
+	    flex-direction: column;
+	}
+
+	.step-img-box:nth-child(2) {
+		grid-row: 1;
+	}
+
+	.step-img-box:nth-child(6) {
+		grid-row: 5;
+	}
+
+	.step-img-box {
+		transform: translateY(2.4rem);
+	}
+
+	.step-number {
+		font-size: 4.4rem;
+	}
+
+	.section-testimonials {
+		grid-template-columns: 1fr;
+		justify-content: center;
+	}
+
+	.testimonials-container {
+	    padding: 3.2rem;
+	}
+
+	.gallery {
+		grid-template-columns: repeat(3, 1fr);
+		gap: 1.2rem;
+	}
+
+	/*.feature {
+		display: flex;
+		flex-direction: column;
+	}*/
+
+	.pricing-plan {
+	    justify-self: center;
+	    width: 100%;
+	    padding: 8rem 1rem 1rem;
+	}
+
+	.plan-details {
+	    font-size: 1.7rem;
+	}
+
+	.grid--4-cols > .feature {
+		text-align: center;
+	}
+
+	/*.section-sign {
+		display: grid;
+		grid-template-columns: 1fr;
+	}*/
+
+	.sign-form {
+	    grid-template-columns: 1fr;
+	}
+
+  	.sign {
+  		display: flex;
+  		flex-direction: column;
+	}
+
+	.sign-text-box {
+		padding: 3.2rem;
+	}
+
+	.sign-img-box {
+	    height: 20rem;
+	    width: 100%;
+	    background-size: auto;
+	}
+
+	.section-pricing {
+	    padding: 1rem 0;
+	}
+
+	.grid--footer {
+		grid-template-columns: 1fr;
+		justify-items: center;
+	}
+
+	.logo-col {
+		grid-row: 4;
+	}
+	
+	.address-col {
+		grid-row: 5;
+		text-align: center;
+	}
+
+	.footer-heading {
+	    font-size: 2rem;
+	}
+
+	.footer {
+	    padding: 2.8rem 0;
+	}
+}
+
