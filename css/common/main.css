@@ -72,7 +72,7 @@ header.navigation-container {
 
 .logo {
 	height: 100%;
-	width: 100%;
+	min-width: 1%;
 	object-fit: contain;
 }
 
